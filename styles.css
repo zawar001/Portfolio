@@ -1,0 +1,138 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Neue Machine', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: #F3AD62;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.landing-page {
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.landing-page h1 {
+    font-family: 'Neue Machine', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    margin: 0;
+}
+
+.landing-page img {
+    margin-top: 2em;
+}
+
+#about {
+    background: linear-gradient(to bottom, #FBB366 0%, black 50%);
+    padding: 5em 1em;
+    text-align: center;
+}
+
+#about h2, #about p {
+    margin: 0.5em 0;
+}
+
+#about p:nth-child(2) {
+    font-weight: 900;
+    font-size: 2em;
+    background: linear-gradient(to right, white, #EAA75F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#about p:nth-child(3) {
+    font-weight: normal;
+}
+
+#about p:nth-child(4) {
+    color: #F3AD63;
+    font-weight: 900;
+}
+
+#work {
+    padding: 5em 1em;
+    text-align: center;
+}
+
+#work h2 {
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #333;
+    width: 45%;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project img {
+    width: 45%;
+}
+
+.project p {
+    width: 45%;
+    text-align: left;
+}
+
+#contact {
+    padding: 5em 1em;
+    text-align: center;
+}
+
+#contact h2 {
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.contact-info img {
+    margin-right: 1em;
+}
+
+footer {
+    background-color: #E5A45D;
+    padding: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
